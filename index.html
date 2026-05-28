@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Maiden | DOM Tour</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white font-sans p-10">
+
+    <!-- PANTALLA GIGANTE -->
+    <header class="text-center mb-12 border-b-4 border-red-600 pb-6">
+
+        <h1 id="pantalla-principal"
+            class="text-6xl font-black text-gray-700 tracking-widest">
+
+            ...SISTEMA APAGADO...
+
+        </h1>
+
+    </header>
+
+    <!-- ZONA DEL SETLIST -->
+    <section class="max-w-3xl mx-auto bg-gray-800 p-8 rounded-lg shadow-[0_0_20px_rgba(220,38,38,0.5)]">
+
+        <h2 class="text-3xl font-bold text-yellow-400 mb-4">
+
+            🎵 Setlist de la Noche:
+
+        </h2>
+
+        <!-- CONTENEDOR -->
+        <div id="caja-canciones"
+             class="text-xl text-gray-400 italic">
+
+            Esperando datos de la consola...
+
+        </div>
+
+    </section>
+
+    <!-- ESTADO DE AMPLIFICADORES -->
+    <footer class="mt-16 text-center">
+
+        <p class="estado-amp text-2xl font-bold text-red-500">
+
+            🔇 Amplificadores silenciados.
+
+        </p>
+
+    </footer>
+
+    <!-- CONEXIÓN JS -->
+    <script src="concierto.js"></script>
+
+</body>
+</html>
